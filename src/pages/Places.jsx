@@ -26,7 +26,7 @@ const places = [
   },
   {
     image: '/images/village_mosque.png',
-    name: 'Jama Masjid',
+    name: 'Jamia Masjid',
     icon: '🕌',
     description:
       'The central mosque of the village serves as both a place of worship and community gathering. It hosts daily prayers, Friday sermons, and religious education classes for children.',

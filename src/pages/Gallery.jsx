@@ -9,7 +9,7 @@ const photos = [
   { src: '/images/festival.png', caption: 'Village Festival', category: 'festivals', featured: true },
   { src: '/images/daily.png', caption: 'Daily Life', category: 'daily' },
   { src: '/images/sunset.png', caption: 'Sunset Over the Village', category: 'scenery' },
-  { src: '/images/mosque.png', caption: 'Jama Masjid', category: 'houses' },
+  { src: '/images/mosque.png', caption: 'Jamia Masjid', category: 'houses' },
   { src: '/images/school.png', caption: 'Village School', category: 'daily' },
   { src: '/images/community.png', caption: 'Community Center', category: 'daily' },
   { src: '/images/hero.png', caption: 'Panoramic View', category: 'scenery' },
