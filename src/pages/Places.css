@@ -1,0 +1,23 @@
+/* ===== Places Page ===== */
+.places-content {
+    padding: var(--section-padding);
+}
+
+.places-inner {
+    max-width: var(--container-max);
+    margin: 0 auto;
+}
+
+.places-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+    .places-grid {
+        grid-template-columns: 1fr;
+    }
+}

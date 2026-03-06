@@ -1,0 +1,215 @@
+/* ===== Contact Page ===== */
+.contact-content {
+    padding: var(--section-padding);
+}
+
+.contact-inner {
+    max-width: var(--container-max);
+    margin: 0 auto;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+/* Village Info */
+.village-info-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2.5rem;
+    box-shadow: var(--shadow-md);
+}
+
+.village-info-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    font-family: var(--font-serif);
+}
+
+.info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.info-icon {
+    width: 44px;
+    height: 44px;
+    background: linear-gradient(135deg, var(--green-50), var(--green-100));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+}
+
+.info-text h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: var(--font-sans);
+    margin-bottom: 0.15rem;
+    color: var(--gray-800);
+}
+
+.info-text p {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+}
+
+/* Contact Form */
+.contact-form-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2.5rem;
+    box-shadow: var(--shadow-md);
+}
+
+.contact-form-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-serif);
+}
+
+.contact-form-card>p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1.25rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--gray-700);
+    margin-bottom: 0.4rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 2px solid var(--gray-200);
+    border-radius: var(--radius-sm);
+    font-family: var(--font-sans);
+    font-size: 0.92rem;
+    color: var(--gray-800);
+    transition: all var(--transition-fast);
+    background: var(--gray-50);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--green-400);
+    background: var(--white);
+    box-shadow: 0 0 0 4px rgba(106, 184, 127, 0.1);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+/* Admin Contact Section */
+.admin-section {
+    padding: var(--section-padding);
+    background: var(--bg-accent);
+}
+
+.admin-inner {
+    max-width: var(--container-max);
+    margin: 0 auto;
+}
+
+.admin-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.admin-card {
+    background: var(--white);
+    border-radius: var(--radius-md);
+    padding: 2rem;
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+    transition: all var(--transition-base);
+}
+
+.admin-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+}
+
+.admin-card .admin-avatar {
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(135deg, var(--green-500), var(--green-400));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 0 auto 1rem;
+    color: var(--white);
+}
+
+.admin-card h4 {
+    font-size: 1.05rem;
+    margin-bottom: 0.2rem;
+    font-family: var(--font-serif);
+}
+
+.admin-card .role {
+    font-size: 0.8rem;
+    color: var(--green-600);
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
+
+.admin-card p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-grid {
+        grid-template-columns: 1fr;
+    }
+}
