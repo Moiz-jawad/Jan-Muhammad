@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/AspectRatio/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a7c59;stop-opacity:1" /> <!-- green-600 -->
+      <stop offset="100%" style="stop-color:#6bb87f;stop-opacity:1" /> <!-- green-400 -->
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="url(#grad)" />
+  <text x="50" y="65" font-family="'Playfair Display', Georgia, serif" font-weight="bold" font-size="45" fill="white" text-anchor="middle">JM</text>
+</svg>
